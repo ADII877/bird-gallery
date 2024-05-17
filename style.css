@@ -1,0 +1,189 @@
+body {
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-image: url(n7.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+nav {
+    height: 60px;
+    align-items: center;
+    display: flex;
+    margin-top: 0;
+    justify-content: space-around;
+}
+
+.right {
+    margin-right: -80px;
+}
+
+.left {
+    font-size: 100px;
+    font-family: Chiller;
+}
+
+nav ul li {
+    word-spacing: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li :hover {
+    text-shadow: 0 0 20px #f00000;
+    color: orangered;
+}
+
+.title {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 16%;
+    color: transparent;
+    -webkit-text-stroke: .5px #fff;
+    background-image: linear-gradient(#fc0e0e,
+            #00abf0);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -1200px 0;
+    animation: animateText 5s linear infinite;
+}
+
+@keyframes animateText {
+
+    0%,
+    95%,
+    100% {
+        background-position: -1200px 0;
+    }
+
+    40%,
+    85% {
+        background-position: 0 0;
+    }
+}
+
+main {
+    float: right;
+    position: absolute;
+    right: 0;
+    max-width: 1000px;
+    margin: 20% auto;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.925);
+}
+
+video {
+    float: left;
+    margin-left: 10px;
+    margin-top: 27%;
+    max-width: 100%;
+    height: 190px;
+    box-shadow: 10px 10px 50px rgb(180, 243, 194);
+}
+
+.video2 {
+    float: left;
+    margin-right: 50%;
+    margin-top: 100px;
+    max-width: 100%;
+    height: 190px;
+}
+
+video3 {
+    float: left;
+    margin-right: 50%;
+    margin-top: 30%;
+    max-width: 100%;
+    height: 190px;
+}
+
+.bird-info {
+    color: #fff;
+    text-shadow: 0 10px 10px black;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+img {
+    box-shadow: 0 10px 10px rgb(24, 226, 193);
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.spa {
+    float: right;
+    height: 40px;
+}
+
+.spa p {
+    position: absolute;
+    width: 53%;
+    right: 10%;
+}
+
+.hum {
+    float: right;
+}
+
+.hum p {
+    position: absolute;
+    width: 53%;
+    right: 10%;
+}
+
+#pea {
+    float: right;
+}
+
+#pea p {
+    margin-right: 50px;
+}
+
+.audio1 {
+    margin-left: 35%;
+}
+
+.audio2 {
+    margin-left: 35%;
+    margin-top: 4%;
+}
+
+.audio3 {
+    margin-left: 35%;
+    margin-top: 7%;
+}
+
+.Created {
+    color: rgb(243, 245, 247);
+    font-size: 40px;
+    font-family: MAlgerian;
+    margin-left: 75%;
+    margin-top: -4%;
+}
